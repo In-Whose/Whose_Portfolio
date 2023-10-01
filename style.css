@@ -1,0 +1,42 @@
+#grid {
+	display: grid;
+	grid-template-columns: 1fr 300px;
+}
+
+/* aside */
+#aside {
+	background-color: black;
+}
+
+#profile {
+	width: 180px;
+	border : 1px solid white;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+#me {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	border : 1px solid blue;
+	border-radius: 100%;
+	margin-bottom: 10px;
+}
+
+#name {
+	text-align: center;
+	color: blue;
+	font-size: 25px;
+	display: block;
+	margin-bottom: 150px;
+}
+
+/* main */
+#main {
+	background-color: gray;
+}
+
+#nav {
+	width: 150px;
+}
